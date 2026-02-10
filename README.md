@@ -109,15 +109,5 @@ conn.close()
 - Import errors when starting `uvicorn feedback_system.backend:app`:
   - Verify `feedback_system/__init__.py` exists and imports are relative (e.g. `from .database import ...`).
 
-## Next steps / Improvements
 
-- Add authentication for the admin dashboard
-- Persist additional metadata (timestamps, user IDs)
-- Add background task queue for LLM calls (to avoid blocking)
-
----
-
-If you want, I can also:
-- Add a `README` section with Windows-specific troubleshooting logs
-- Generate a minimal `Makefile` or PowerShell script to automate start/stop
 
